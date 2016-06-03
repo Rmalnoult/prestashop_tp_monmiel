@@ -1,0 +1,45 @@
+header, .columns-container {
+	background-color: #eee;
+}
+
+header .row #header_logo img {
+
+	max-height: 100px;
+	width: auto;
+	float: left;
+}
+header .row #header_logo h1 {
+	position: relative;
+	top: 23px;
+	left: 30px;
+	
+}
+.footer-container {
+	background: none;
+	background-color: #222222;
+}
+body {
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	color: #222;
+}
+.text-left {
+	text-align: left;
+}
+.text-white {
+	color: #fff !important;
+}
+
+ul#home-page-tabs {
+	display: none;
+}
+.avatar {
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%;
+}
+div.primary_block {
+	margin-bottom: 0;
+}

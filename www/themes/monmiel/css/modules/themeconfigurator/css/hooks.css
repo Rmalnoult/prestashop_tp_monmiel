@@ -1,0 +1,29 @@
+#htmlcontent_top ul li h3, #htmlcontent_top ul li p {
+	z-index: 1;
+	position: absolute;
+	color: white;
+	padding: 10px;
+}
+#htmlcontent_top ul li h3 {
+	top: 0;
+	left: 30px;
+	margin-bottom: 0;
+}
+#htmlcontent_top ul li p {
+	top: 63px;
+	max-width: 86%;
+	left: 30px;
+}
+#htmlcontent_top ul h3:after, #htmlcontent_top ul p:after {
+	content: " ";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #000;
+	opacity: 0.5;
+	z-index: -1;
+}
